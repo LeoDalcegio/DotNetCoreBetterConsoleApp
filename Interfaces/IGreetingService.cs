@@ -1,4 +1,4 @@
-namespace DotNetCoreBetterConsoleApp
+namespace DotNetCoreBetterConsoleApp.Interfaces
 {
     public interface IGreetingService
     {

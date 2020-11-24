@@ -1,13 +1,14 @@
+using DotNetCoreBetterConsoleApp.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace DotNetCoreBetterConsoleApp
+namespace DotNetCoreBetterConsoleApp.Classes
 {
     public class GreetingService : IGreetingService
     {
         private readonly ILogger<GreetingService> _log;
         private readonly IConfiguration _config;
-        
+
         public GreetingService(ILogger<GreetingService> log, IConfiguration config)
         {
             _log = log;
